@@ -161,7 +161,7 @@ echo "This string spans
 multiple lines. The newlines will be
 output as well";
 
-echo "This string spans\nmultiple lines. The newlines will be\output as well.";
+echo "This string spans\nmultiple lines. The newlines will be\noutput as well.";
 ```
 
 **নোট:–** echo statement দুইভাবে লেখা যায়। এক. `echo` তথা ব্রাকেট বা parenthesis () ছাড়া। দুই. ব্রাকেট বা parenthesis () সহ, `echo()`। দুটোই ভ্যালিড। তবে ব্রাকেট ছাড়াই বেশি ব্যবহার হয়।
