@@ -161,7 +161,7 @@ echo "This string spans
 multiple lines. The newlines will be
 output as well";
 
-echo "This string spans\nmultiple lines. The newlines will be\output as well.";
+echo "This string spans\nmultiple lines. The newlines will be\noutput as well.";
 ```
 
 **নোট:–** echo statement দুইভাবে লেখা যায়। এক. `echo` তথা ব্রাকেট বা parenthesis () ছাড়া। দুই. ব্রাকেট বা parenthesis () সহ, `echo()`। দুটোই ভ্যালিড। তবে ব্রাকেট ছাড়াই বেশি ব্যবহার হয়।
@@ -218,7 +218,7 @@ $name = 'Polash';
 
 $firstName = $name;
 
-echo $fireName; // Output: Polash
+echo $firstName; // Output: Polash
 ```
 
 আবার আপনি চাইলে একটা _Variable-র_ মান বা ভ্যালু হিসেবে অন‍্যকোন _Variable_ এসাইন করার পর  ২টি _Variable-র_ যেকোন একটি বা উভয়টির ভ্যালু পরিবর্তন করতে পারবেন। সেক্ষেত্রে একটির ভ্যালু পরিবর্তন করার কারণে অন্যটির ভ্যালু বা মানের কোন পরিবর্তন হবে না।
@@ -231,7 +231,7 @@ $firstName = $name;
 
 $name = 'Mahmud';
 
-echo $fireName; // Output: Polash
+echo $firstName; // Output: Polash
 // try to change the value of $firstName variable and see the output
 
 echo $name; // Output: Mahmud
