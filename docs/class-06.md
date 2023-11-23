@@ -2,7 +2,7 @@
 
 ## in_array() ফাংশন
 
-এই ফাংশন দিয়ে আমরা যদি কোন একটি এলিমেন্ট একটি অ্যারের মধ্যে আছে কিনা তা চেক করতে পারি। এই ফাংশনের প্রথম প্যারামিটার হচ্ছে এলিমেন্ট এবং দ্বিতীয় প্যারামিটার হচ্ছে অ্যারে। এই ফাংশন যদি এলিমেন্ট অ্যারের মধ্যে পাই তাহলে এটি ট্রু রিটার্ন করবে আর না পাইলে ফলাফল হবে ফলস।
+এই ফাংশন দিয়ে আমরা কোন একটি এলিমেন্ট একটি অ্যারের মধ্যে আছে কিনা তা চেক করতে পারি। এই ফাংশনের প্রথম প্যারামিটার হচ্ছে এলিমেন্ট এবং দ্বিতীয় প্যারামিটার হচ্ছে অ্যারে। এই ফাংশন যদি এলিমেন্ট অ্যারের মধ্যে পায় তাহলে এটি ট্রু রিটার্ন করবে আর না পাইলে ফলাফল হবে ফলস।
 
 ```php
 <?php
@@ -21,16 +21,16 @@ if (in_array('apple', $fruits)) {
 Apple exists
 ```
 
-আরেকটা উদাহরন
+আরেকটা উদাহরণ
 
 ```php
 <?php
 
 $allowedFileExtensions = ['jpg', 'jpeg', 'png', 'gif'];
 
-$filename = 'image.png';
+$fileName = 'image.png';
 
-$fileParts = explode('.', $filename);
+$fileParts = explode('.', $fileName);
 
 $fileExtension = strtolower(end($fileParts));
 
@@ -338,8 +338,8 @@ Array
 ```php
 <?php
 $fruits = array(
-    'a' => 'banana',
-    'b' => 'apple',
+    'b' => 'banana',
+    'a' => 'apple',
     'c' => 'orange'
 );
 
@@ -353,8 +353,8 @@ print_r($fruits);
 ```php
 Array
 (
-    [a] => banana
-    [b] => apple
+    [a] => apple
+    [b] => banana
     [c] => orange
 )
 ```
